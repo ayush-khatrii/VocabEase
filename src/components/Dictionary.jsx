@@ -209,7 +209,7 @@ const Dictionary = () => {
                         {examples.map((example, index) => (
                           <li
                             key={index}
-                            className="list-inside list-decimal ml-5 text-zinc-600 font-medium"
+                            className="list-inside  list-decimal ml-5 text-zinc-600 font-medium"
                           >
                             {example}
                           </li>
@@ -226,7 +226,7 @@ const Dictionary = () => {
                             {antonyms.slice(0, 5).map((ele, index) => (
                               <p
                                 key={index}
-                                className="rounded-md bg-zinc-300 px-3 py-2 text-zinc-900 text-xl font-medium"
+                                className="rounded-md bg-zinc-200 px-3 py-2 text-zinc-900 text-xl font-medium"
                               >
                                 {ele}
                               </p>
